@@ -145,6 +145,12 @@ h6 {
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+
+}
+
 .header {
   color: var(--default-color);
   position: fixed;
