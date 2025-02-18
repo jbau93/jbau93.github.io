@@ -60,8 +60,20 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section light-background">
 
-      <img src="assets/img/yo2-1.webp" alt="" class="responsive-img">
-
+        <!-- <img src="assets/img/yo2-1.webp" alt="" class="responsive-img">-->
+        <img 
+          srcset="
+            assets/img/yo2-movil-peq.jpg 320w,
+            assets/img/yo2-movil-grande.jpg 480w,
+            assets/img/yo2-1.webp 800w
+          "
+          sizes="
+            (max-width: 320px) 280px,
+            (max-width: 480px) 440px,
+            800px
+            "
+          src="assets/img/yo2-1.webp"
+          />
       <div class="container" data-aos="zoom-out">
         <div class="row justify-content-center">
           <div class="col-lg-9">
